@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nhimiya Barber | Karlskoga</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+<style>
+body{
+margin:0;
+font-family:'Poppins',sans-serif;
+background:radial-gradient(circle at top,#1a1a1a,#0d0d0d 60%);
+color:white;
+text-align:center;
+}
+
+header{
+padding:70px 20px;
+}
+
+h1{
+font-size:40px;
+letter-spacing:2px;
+background:linear-gradient(90deg,#d4af37,#ffffff,#d4af37);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.tagline{
+margin-top:12px;
+font-weight:300;
+opacity:0.9;
+}
+
+.section{
+max-width:900px;
+margin:auto;
+padding:40px 20px;
+}
+
+.card{
+background:linear-gradient(145deg,#1a1a1a,#111);
+padding:30px;
+border-radius:20px;
+margin-bottom:30px;
+box-shadow:0 0 40px rgba(212,175,55,0.18);
+}
+
+h2{
+color:#d4af37;
+margin-top:0;
+}
+
+.price{
+margin:10px 0;
+font-size:16px;
+}
+
+input,select{
+width:100%;
+padding:14px;
+margin:10px 0;
+border-radius:12px;
+border:none;
+background:#0f0f0f;
+color:white;
+font-size:14px;
+}
+
+button{
+background:linear-gradient(90deg,#d4af37,#b8860b);
+color:black;
+padding:15px;
+border:none;
+border-radius:14px;
+font-weight:600;
+width:100%;
+cursor:pointer;
+margin-top:12px;
+}
+
+a{
+color:#d4af37;
+text-decoration:none;
+font-weight:600;
+}
+
+footer{
+padding:30px;
+opacity:0.6;
+font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Nhimiya Barber</h1>
+<div class="tagline">Stilrent • Professionellt • Klassisk kvalitet</div>
+</header>
+
+<div class="section">
+
+<div class="card">
+<h2>Öppettider</h2>
+<p>Måndag – Söndag</p>
+<p><strong>12:00 – 20:00</strong></p>
+<p>Bregårdsgatan 10A, Karlskoga</p>
+<p>Telefon: 076-345 66 11</p>
+</div>
+
+<div class="card">
+<h2>Priser</h2>
+<div class="price">Klippning – 200 kr</div>
+<div class="price">Skäggklippning – 150 kr</div>
+<div class="price">Skägg + Hår – 300 kr</div>
+<div class="price">Barnklippning – 150 kr</div>
+</div>
+
+<div class="card">
+<h2>Boka tid</h2>
+<form action="https://formsubmit.co/barbernhimiya@gmail.com" method="POST">
+<input type="text" name="name" placeholder="Ditt namn" required>
+<input type="tel" name="phone" placeholder="Telefonnummer" required>
+<input type="email" name="email" placeholder="Din e-post" required>
+<input type="date" name="date" required>
+
+<select name="service" required>
+<option value="">Välj tjänst</option>
+<option>Klippning - 200 kr</option>
+<option>Skäggklippning - 150 kr</option>
+<option>Skägg + Hår - 300 kr</option>
+<option>Barnklippning - 150 kr</option>
+</select>
+
+<input type="hidden" name="_subject" value="Ny bokning från hemsidan">
+
+<button type="submit">Boka nu</button>
+</form>
+</div>
+
+<div class="card">
+<h2>Följ oss</h2>
+<p><a href="https://www.instagram.com/nhimiya_barber" target="_blank">Instagram</a></p>
+<p><a href="https://www.tiktok.com/@nhimiya_barber" target="_blank">TikTok</a></p>
+</div>
+
+</div>
+
+<footer>
+© 2026 Nhimiya Barber – Karlskoga
+</footer>
+
+</body>
+</html>
